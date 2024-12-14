@@ -52,4 +52,8 @@ td {
   background-color: #ccd5aeff; /* Cornsilk for table cells */
   color: #3b3b3b; /* Dark text for data cells */
   font-size: small;
+  max-width: 200px; /* Adjust as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
