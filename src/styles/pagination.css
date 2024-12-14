@@ -1,0 +1,42 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem; /* 20px */
+  gap: 10px; /* Adds space between First, Previous, Page numbers, Next, and Last buttons */
+}
+
+#pagination-buttons {
+  display: flex;
+  gap: 8px; /* Adds gap between page number buttons */
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  background: #e9edc9ff; /* Tea Green background for buttons */
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  position: relative;
+  display: inline-block;
+  font-size: 0.875rem; /* Smaller font size for better readability */
+}
+
+.pagination button:hover {
+  background-color: #b8c492; /* Papaya Whip on hover */
+  border-color: #b8c492;
+}
+
+.pagination button.active {
+  background: #a9b882; /* Slightly darker Buff on click */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Pressed state shadow */
+  border-color: #a9b882;
+}
+
+.pagination button:disabled {
+  background-color: #ccd5aeff; /* Light gray for disabled state */
+  cursor: not-allowed;
+  color: #a5a5a5; /* Muted text for disabled buttons */
+  box-shadow: none;
+  border: 1px solid #9cad6e;
+}

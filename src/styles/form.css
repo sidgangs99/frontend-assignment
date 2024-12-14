@@ -1,0 +1,38 @@
+.jump-to-page {
+  display: flex;
+  align-items: center;
+}
+
+.jump-to-page input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: small;
+  border: 1px solid #9cad6e;
+  border-radius: 4px;
+  background: #ccd5aeff;
+  outline-style: none;
+  min-width: 6rem;
+}
+
+.jump-to-page button {
+  padding: 0.5rem 1rem;
+  background-color: #9cad6e; /* Buff for buttons */
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: #9cad6e;
+}
+
+.jump-to-page button:hover {
+  background-color: #7f8d44; /* Darker shade for hover */
+  cursor: pointer;
+}
+
+.jump-to-page input::-webkit-outer-spin-button,
+.jump-to-page input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.jump-to-page input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,47 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  font-size: 16px; /* Base font size */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9edc9ff; /* Tea Green for body background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: #3b3b3b; /* Darker text for readability */
+}
+
+button {
+  padding: 0.5rem 0.75rem;
+  background: #e9edc9ff; /* Buff for buttons */
+  color: #373f28; /* White text for buttons */
+  border: none;
+  border-radius: 0.25rem; /* Rounded buttons */
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Initial shadow */
+  border: 1px solid #e9edc9ff;
+}
+
+button:hover {
+  background: #b8c492; /* Papaya Whip on hover */
+  color: #373f28; /* Darker text on hover */
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* Deeper shadow for 3D effect */
+  transform: translateY(2px); /* Moves the button up slightly */
+}
+
+button:active {
+  background: #a9b882; /* Slightly darker Buff on click */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Pressed state shadow */
+}
+
+button:disabled {
+  background: #e9edc9ff; /* Beige for disabled state */
+  cursor: not-allowed;
+  color: #a5a5a5; /* Muted text for disabled buttons */
+  box-shadow: none; /* No shadow for disabled state */
+}
